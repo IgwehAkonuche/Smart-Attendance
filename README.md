@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Smart Attendance System
 > **Capstone Project**: NCDMB Digitalization Training Program (AI Track)
 
@@ -70,3 +71,7 @@ npm run dev
 ## 🤝 Contribution
 
 Developed by the **NCDMB AI Cohort**. This project demonstrates the practical application of Artificial Intelligence in solving real-world administrative challenges.
+=======
+# Smart-Attendance
+This application is a Smart Attendance System built as a capstone project for the NCDMB Digitisation Initiative, a capacity development program aimed at equipping young Nigerians with advanced digital skills for the oil and gas sector.
+>>>>>>> 720108bb636cd4e7e00e1a1aaefc77d196f87272
