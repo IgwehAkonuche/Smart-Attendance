@@ -1,0 +1,17 @@
+{
+    "name": "smart-attendance-root",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "node server/index.js",
+        "dev": "concurrently \"npm run server:dev\" \"npm run client\"",
+        "server": "cd server && npm start",
+        "server:dev": "cd server && npm run dev",
+        "client": "cd client && npm run dev",
+        "build": "cd client && npm install && npm run build",
+        "install-all": "cd server && npm install && cd ../client && npm install",
+        "postinstall": "npm run install-all"
+    },
+    "dependencies": {
+        "concurrently": "^8.2.2"
+    }
+}
